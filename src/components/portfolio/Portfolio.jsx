@@ -100,10 +100,10 @@ const Portfolio = () => {
                         </div>
                         <h3>{pro.title}</h3>
                         <div className="portfolio__item-cta">
-                            <a href={pro.github} className="btn" target="_blank">
+                            <a href={pro.github} className="btn" target="_blank" rel="noreferrer">
                                 GitHub
                             </a>
-                            <a href={pro.link} className="btn btn-primary" target="_blank">
+                            <a href={pro.link} className="btn btn-primary" target="_blank" rel="noreferrer">
                                 Live Demo
                             </a>
                         </div>
@@ -119,10 +119,10 @@ const Portfolio = () => {
                         </div>
                         <h3>{pro.title}</h3>
                         <div className="portfolio__item-cta">
-                            <a href={pro.github} className="btn" target="_blank">
+                            <a href={pro.github} className="btn" target="_blank" rel="noreferrer">
                                 GitHub
                             </a>
-                            <a href={pro.link} className="btn btn-primary" target="_blank">
+                            <a href={pro.link} className="btn btn-primary" target="_blank" rel="noreferrer">
                                 Live Demo
                             </a>
                         </div>
