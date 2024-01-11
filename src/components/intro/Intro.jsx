@@ -21,7 +21,7 @@ const Intro = () => {
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
                             <small>
-                                <span style={{ fontSize: "20px" }}>1.5+</span>{" "}
+                                <span style={{ fontSize: "15px" }}>1.5+</span>{" "}
                                 years
                             </small>
                         </article>
@@ -29,13 +29,13 @@ const Intro = () => {
                             <VscFolderLibrary className="about__icon" />
                             <h5>Projects</h5>
                             <small>
-                                <span style={{ fontSize: "20px" }}>10+</span>{" "}
+                                <span style={{ fontSize: "15px" }}>8+</span>{" "}
                                 Completed Toy Projects
                             </small>
                             <br />
                             <small>
-                                <span style={{ fontSize: "20px" }}>5+</span>{" "}
-                                Completed Industry Ready Projects
+                                <span style={{ fontSize: "15px" }}></span>{" "}
+                                Working as frontend Developer 
                             </small>
                         </article>
                     </div>

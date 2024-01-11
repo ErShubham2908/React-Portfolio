@@ -29,9 +29,19 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255); /* Set the color of the thumb (the moving part) */
+  border-radius: 6px; /* Optional: round the corners of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c2c6c; /* Set the color of the track (the non-moving part) */
+  scrollbar-color: blue #f1f1f1;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -73,11 +83,9 @@ section > h5 {
 section > h1 {
   color: var(--color-primary);
   margin-bottom: 2rem;
-  border: 1px solid white;
 }
 
 section > h2 {
-  border: 1px solid white;
   color: var(--color-primary);
   margin-bottom: 2rem;
   margin-top: 1rem;
@@ -125,12 +133,15 @@ img {
 }
 
 @media screen and (max-width: 1024px){
+  body{
+    overflow-x: hidden;
+  }
   .container {
     width: var(--container-width-md);
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
 }
 

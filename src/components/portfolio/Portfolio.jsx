@@ -82,7 +82,7 @@ const Portfolio = () => {
           title: "React Blog App",
           category : 'React',
           img: IMG9,
-          link: "https://shubhamkitian007-react-project.netlify.app/home",
+          link: "https://shubhamkitian007-react-project.netlify.app/",
           github: "https://github.com/Shubhamkitian007/React-Project",
         },
     ];
