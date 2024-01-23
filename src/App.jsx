@@ -10,13 +10,13 @@ import Topbar from "./components/topbar/Topbar";
 const App = () => {
   return (
     <>
-      <Header />
-      <Topbar />
-      <Intro />
-      <Experience />
+      {/* <Header /> */}
+      {/* <Topbar /> */}
+      {/* <Intro /> */}
+      {/* <Experience /> */}
       <Portfolio />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 };

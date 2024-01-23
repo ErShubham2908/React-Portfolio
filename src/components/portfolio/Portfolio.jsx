@@ -8,7 +8,7 @@ import IMG6 from "../../assets/Img6.png";
 import IMG7 from "../../assets/Img7.png";
 import IMG8 from "../../assets/Img8.png";
 import IMG9 from "../../assets/Img9.png";
-
+import IMG10 from "../../assets/Img10.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -84,6 +84,14 @@ const Portfolio = () => {
           img: IMG9,
           link: "https://shubhamkitian007-react-project.netlify.app/",
           github: "https://github.com/Shubhamkitian007/React-Project",
+        },
+        {
+            id: 10,
+            title: "Todo - Local Sotrage",
+            category : 'JavaScript',
+            img: IMG10,
+            link: "https://ershubham2908.github.io/Todo-local-session/",
+            github: "https://github.com/ErShubham2908/Todo-local-session",
         },
     ];
 
