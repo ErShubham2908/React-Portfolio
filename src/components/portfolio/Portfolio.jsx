@@ -58,7 +58,7 @@ const Portfolio = () => {
             title: "Dice Game",
             category : 'JavaScript',
             img: IMG6,
-            link: "https://play-quiz-app.netlify.app/",
+            link: "https://ershubham2908.github.io/JavaScript-Dice-Game/",
             github: "https://github.com/ErShubham2908/JavaScript-Dice-Game",
         },
         {
